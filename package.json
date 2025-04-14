@@ -8,12 +8,15 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
-    "format": "prettier --write . --ignore-path .prettierignore"
+    "format": "prettier --write . --ignore-path .prettierignore",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.24.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
@@ -25,6 +28,8 @@
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
     "prettier": "^3.5.3",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.29.1",
