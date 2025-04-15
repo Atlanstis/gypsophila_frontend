@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@unocss/reset": "66.1.0-beta.11",
-    "vue": "^3.5.13"
+    "pinia": "^3.0.2",
+    "vue": "^3.5.13",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
@@ -43,6 +45,7 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@parcel/watcher",
       "esbuild"
     ]
   }
