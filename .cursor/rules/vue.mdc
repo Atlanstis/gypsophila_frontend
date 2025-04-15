@@ -40,3 +40,4 @@ You are an expert in TypeScript, Node.js, Web APIs, Vite, Vue.js, Vue Router, Pi
 - Optimize Web Vitals (LCP, CLS, FID) using tools like Lighthouse or WebPageTest.
 - Use PNPM Insteadof NPM.
 - Use Chinese To Answer Question.
+- Use Unocss，Config See [uno.config.ts](mdc:uno.config.ts).
