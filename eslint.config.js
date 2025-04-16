@@ -24,6 +24,7 @@ export default [
       '*.njsproj',
       '*.sln',
       '*.sw?',
+      'src/types/components.d.ts',
     ],
   },
 
