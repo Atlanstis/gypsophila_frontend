@@ -6,14 +6,16 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../views/Home.vue'),
+    component: () => import('../layouts/management/index.vue'),
+    redirect: '/management',
+    children: [
+      {
+        path: 'management',
+        name: 'management',
+        component: () => import('../views/Home.vue'),
+      },
+    ],
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/About.vue'),
-  },
-  // 这里可以添加更多路由
 ];
 
 export const router = createRouter({

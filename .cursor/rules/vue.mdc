@@ -41,3 +41,6 @@ You are an expert in TypeScript, Node.js, Web APIs, Vite, Vue.js, Vue Router, Pi
 - Use PNPM Insteadof NPM.
 - Use Chinese To Answer Question.
 - Use Unocss，Config See [uno.config.ts](mdc:uno.config.ts).
+- Component file name use like 'my-component.vue'.
+- When use Pinia，the content of State, Getters, and Actions should be distinguished.
+
