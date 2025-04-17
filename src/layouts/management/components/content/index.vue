@@ -5,7 +5,7 @@ defineOptions({
 </script>
 
 <template>
-  <div class="p-16px h-full overflow-y-auto">
+  <div class="p-16px h-full w-full">
     <router-view />
   </div>
 </template>
