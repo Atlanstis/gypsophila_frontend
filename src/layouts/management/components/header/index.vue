@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import { useManagementLayoutStore } from '@/store';
 
+import { ThemeToggle } from './components';
+
 const layoutStore = useManagementLayoutStore();
 
 defineOptions({
@@ -9,11 +11,14 @@ defineOptions({
 </script>
 
 <template>
-  <div :class="['layout-header', 'flex h-full items-center bg-white']">
+  <div :class="['layout-header', 'flex h-full items-center']">
     <div class="h-full flex-1 overflow-hidden">
       <div @click="layoutStore.toggleSiderCollapsed">切换</div>
     </div>
-    <div class="flex h-full">用户Icon</div>
+    <div class="flex h-full items-center gap-2 pr-4">
+      <ThemeToggle />
+      <div>用户Icon</div>
+    </div>
   </div>
 </template>
 

@@ -31,7 +31,7 @@ const commonClass = ref('transition-all duration-300');
 </script>
 
 <template>
-  <div class="relative h-full bg-[#f6f9f8]" :style="cssVars">
+  <div class="relative h-full" :style="cssVars">
     <div class="flex h-full flex-col">
       <!-- 头部 -->
       <header :class="[style['layout-header'], 'flex-shrink-0', leftGapClass, commonClass]">

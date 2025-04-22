@@ -5,7 +5,7 @@ defineOptions({
 </script>
 
 <template>
-  <div :class="['layout-sider', 'flex h-full flex-col bg-white']">
+  <div :class="['layout-sider', 'flex h-full flex-col']">
     <div class="flex h-[56px] flex-shrink-0 items-center justify-center">Logo</div>
     <div class="flex-grow-1 overflow-hidden">菜单栏</div>
   </div>
