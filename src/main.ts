@@ -1,13 +1,10 @@
-import '@unocss/reset/tailwind-compat.css';
-import 'virtual:uno.css';
-
 import { createApp } from 'vue';
 
 import { setupRouter } from '@/router';
 import { setupStore } from '@/store';
 
 import App from './App.vue';
-import './styles/global.scss';
+import './styles/index.css';
 
 const app = createApp(App);
 
