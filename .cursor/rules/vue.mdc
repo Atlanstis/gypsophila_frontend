@@ -40,6 +40,6 @@ You are an expert in TypeScript, Node.js, Web APIs, Vite, Vue.js, Vue Router, Pi
 - Optimize Web Vitals (LCP, CLS, FID) using tools like Lighthouse or WebPageTest.
 - Use PNPM Insteadof NPM.
 - Use Chinese To Answer Question.
-- Component file name use like 'my-component.vue'.
+- Component file name use like 'MyComponent.vue'.
 - When use Pinia，the content of State, Getters, and Actions should be distinguished.
 - Use Tailwindcss.
