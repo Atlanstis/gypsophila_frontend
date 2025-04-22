@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div :class="['layout-tab', 'h-full bg-white flex-y-center pl-16px']">页签</div>
+  <div :class="['layout-tab', 'flex h-full items-center bg-white pl-[16px]']">页签</div>
 </template>
 
 <style lang="scss" scoped>

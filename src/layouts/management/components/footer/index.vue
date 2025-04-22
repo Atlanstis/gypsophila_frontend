@@ -5,7 +5,7 @@ defineOptions({
 </script>
 
 <template>
-  <div class="bg-white h-full flex-center">底部</div>
+  <div class="h-full bg-white">底部</div>
 </template>
 
 <style scoped lang="scss"></style>

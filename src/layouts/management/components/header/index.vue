@@ -9,11 +9,11 @@ defineOptions({
 </script>
 
 <template>
-  <div :class="['layout-header', 'h-full flex-y-center bg-white']">
-    <div class="flex-1-hidden h-full flex-y-center">
-      <NButton @click="layoutStore.toggleSiderCollapsed">切换</NButton>
+  <div :class="['layout-header', 'flex h-full items-center bg-white']">
+    <div class="h-full flex-1 overflow-hidden">
+      <div @click="layoutStore.toggleSiderCollapsed">切换</div>
     </div>
-    <div class="flex justify-end h-full">用户Icon</div>
+    <div class="flex h-full">用户Icon</div>
   </div>
 </template>
 

@@ -27,12 +27,12 @@ const leftGapClass = computed(() => {
   return layoutStore.siderCollapse ? style['left-gap_collapsed'] : style['left-gap'];
 });
 
-const commonClass = ref('transition-all-300');
+const commonClass = ref('transition-all duration-300');
 </script>
 
 <template>
-  <div class="relative h-full bg-#f6f9f8" :style="cssVars">
-    <div class="flex-col h-full">
+  <div class="relative h-full bg-[#f6f9f8]" :style="cssVars">
+    <div class="flex h-full flex-col">
       <!-- 头部 -->
       <header :class="[style['layout-header'], 'flex-shrink-0', leftGapClass, commonClass]">
         <LayoutHeader />
