@@ -3,12 +3,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-html,
-body,
-#app {
-  height: 100%;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -120,6 +114,11 @@ body,
 }
 
 @layer base {
+  html,
+  body,
+  #app {
+    @apply h-full;
+  }
   * {
     @apply border-border outline-ring/50;
   }

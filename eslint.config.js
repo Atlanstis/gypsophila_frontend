@@ -1,4 +1,3 @@
-// eslint.config.js
 import js from '@eslint/js';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
@@ -7,6 +6,7 @@ import eslintPluginVue from 'eslint-plugin-vue';
 import globals from 'globals';
 import vueParser from 'vue-eslint-parser';
 
+/** @type {import('eslint').Linter.Config} */
 export default [
   // 全局忽略
   {
