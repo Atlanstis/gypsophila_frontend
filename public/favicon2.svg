@@ -1,33 +1,20 @@
-<script setup lang="ts"></script>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1024pt" height="1024pt" viewBox="0 0 1024 1024"
+ preserveAspectRatio="xMidYMid meet">
 
-<template>
-  <div class="rounded-lg bg-white px-6 py-8 shadow-xl ring ring-gray-900/5 dark:bg-gray-800">
-    <div>
-      <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg">
-        <svg
-          version="1.0"
-          xmlns="http://www.w3.org/2000/svg"
-          width="32pt"
-          height="32pt"
-          viewBox="0 0 1024 1024"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          <g
-            transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
-            fill="#7C3AED"
-            stroke="none"
-          >
-            <path
-              d="M4895 7954 c-197 -21 -325 -40 -452 -69 -848 -191 -1553 -733 -1932
+<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+fill="#7C3AED" stroke="none">
+<path d="M4895 7954 c-197 -21 -325 -40 -452 -69 -848 -191 -1553 -733 -1932
 -1484 -77 -152 -171 -374 -171 -402 0 -11 28 -14 153 -14 83 0 202 -3 262 -8
 l110 -7 50 107 c218 471 575 846 1045 1096 206 110 394 177 636 226 213 44
 336 54 584 48 343 -8 603 -64 902 -197 255 -113 468 -260 688 -475 80 -78 161
 -151 180 -161 47 -25 171 -26 217 -1 137 74 195 225 134 352 -45 93 -303 328
 -536 488 -222 152 -570 316 -828 391 -123 36 -305 73 -448 92 -118 15 -507 27
--594 18z"
-            />
-            <path
-              d="M2320 5935 c-5 -14 -20 -71 -34 -127 -84 -354 -104 -679 -61 -993 l6
+-594 18z"/>
+<path d="M2320 5935 c-5 -14 -20 -71 -34 -127 -84 -354 -104 -679 -61 -993 l6
 -40 -84 -61 c-138 -101 -260 -262 -302 -401 -89 -288 29 -654 334 -1036 261
 -328 644 -566 1017 -633 122 -22 360 -22 448 -1 l58 15 122 -59 c601 -289
 1317 -357 1986 -189 119 30 295 85 365 115 22 9 58 24 80 33 88 36 307 153
@@ -51,18 +38,6 @@ c-65 -323 -153 -551 -308 -800 -92 -147 -179 -259 -297 -382 -367 -381 -860
 920 -57 117 -87 215 -104 349 -24 177 28 352 149 503 42 52 204 193 222 193 4
 0 10 -15 14 -32 33 -172 67 -303 119 -459 57 -173 62 -184 85 -181 40 4 405
 158 435 183 5 4 -5 40 -22 81 -59 145 -121 382 -137 525 l-7 61 58 7 c33 3 66
-8 74 10 45 11 355 -6 457 -24z"
-            />
-          </g>
-        </svg>
-      </span>
-    </div>
-    <h3 class="mt-5 text-base font-medium tracking-tight text-gray-900 dark:text-white">
-      Writes upside-down
-    </h3>
-    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
-      The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even
-      works in outer space.
-    </p>
-  </div>
-</template>
+8 74 10 45 11 355 -6 457 -24z"/>
+</g>
+</svg>
