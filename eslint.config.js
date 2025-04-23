@@ -1,4 +1,3 @@
-import js from '@eslint/js';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
 import prettierConfig from 'eslint-config-prettier';
@@ -8,29 +7,6 @@ import vueParser from 'vue-eslint-parser';
 
 /** @type {import('eslint').Linter.Config} */
 export default [
-  // 全局忽略
-  {
-    ignores: [
-      'node_modules/**',
-      'dist/**',
-      'dist-ssr/**',
-      '*.local',
-      '.vscode/*',
-      '!.vscode/extensions.json',
-      '.idea/**',
-      '.DS_Store',
-      '*.suo',
-      '*.ntvs*',
-      '*.njsproj',
-      '*.sln',
-      '*.sw?',
-      'src/types/components.d.ts',
-    ],
-  },
-
-  // 基础JS规则
-  js.configs.recommended,
-
   // 所有文件的基础设置
   {
     files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,vue}'],
@@ -60,7 +36,13 @@ export default [
     },
     rules: {
       '@typescript-eslint/no-explicit-any': 'warn',
-      '@typescript-eslint/no-unused-vars': 'warn',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+        },
+      ],
     },
   },
 

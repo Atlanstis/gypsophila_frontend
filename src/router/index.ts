@@ -2,26 +2,9 @@ import type { App } from 'vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: () => import('@/layouts/management/index.vue'),
-    redirect: '/management',
-    children: [
-      {
-        path: 'management',
-        name: 'management',
-        component: () => import('@/views/Home.vue'),
-      },
-    ],
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('@/views/login/index.vue'),
-  },
-];
+import { functionalRoutes } from './functional';
+
+const routes = [...functionalRoutes];
 
 export const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
