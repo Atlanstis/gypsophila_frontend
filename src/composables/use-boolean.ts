@@ -1,5 +1,3 @@
-import { ref } from 'vue';
-
 /**
  * 布尔值
  * @param initialValue - 初始值

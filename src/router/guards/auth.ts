@@ -2,7 +2,6 @@ import type { NavigationGuardNext, RouteLocationNormalized, Router } from 'vue-r
 
 import { RouteName, RoutePath } from '@/constants';
 import { useAuthStore, useRouteStore } from '@/store';
-import { type IStrategyAction, exeStrategyActions } from '@/utils';
 
 /**
  * 权限守卫

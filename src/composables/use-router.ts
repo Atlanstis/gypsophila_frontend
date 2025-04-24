@@ -1,4 +1,4 @@
-import { type RouteLocationRaw, useRouter } from 'vue-router';
+import { type RouteLocationRaw } from 'vue-router';
 
 import { RouteName } from '@/constants';
 import { router as globalRouter } from '@/router';

@@ -25,3 +25,4 @@ dist-ssr
 
 # Auto-generated files
 src/types/components.d.ts
+src/types/auto-imports.d.ts

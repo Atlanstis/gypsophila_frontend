@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
-
 import { LayoutContent, LayoutFooter, LayoutHeader, LayoutSider, LayoutTab } from './components';
 import style from './index.module.css';
 import { useManagementLayoutStore } from './store';

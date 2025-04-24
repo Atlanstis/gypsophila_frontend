@@ -1,7 +1,4 @@
-import { readonly, ref, watch } from 'vue';
-
 import type { StorageKey, StorageOptions, StorageTyped } from '@/types/storage';
-import { storageService } from '@/utils';
 
 /**
  * 使用本地存储的组合式函数

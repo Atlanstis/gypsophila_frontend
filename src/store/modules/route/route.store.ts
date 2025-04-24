@@ -1,8 +1,4 @@
-import { ref } from 'vue';
-
 import type { RouteRecordRaw } from 'vue-router';
-
-import { defineStore } from 'pinia';
 
 import { RouteName } from '@/constants';
 import { Layouts } from '@/layouts';

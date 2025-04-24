@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useColorMode } from '@vueuse/core';
-
 defineOptions({
   name: 'ThemeToggle',
 });
