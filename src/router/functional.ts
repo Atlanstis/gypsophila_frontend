@@ -1,15 +1,18 @@
 import type { RouteRecordRaw } from 'vue-router';
 
-import { RouteName } from '@/enums';
+import { RouteName, RoutePath } from '@/constants';
 
+/**
+ * 功能路由
+ */
 export const functionalRoutes: RouteRecordRaw[] = [
   {
-    path: '/',
+    path: RoutePath.Root,
     name: RouteName.Root,
-    redirect: '/login',
+    redirect: RoutePath.Login,
   },
   {
-    path: '/login',
+    path: RoutePath.Login,
     name: RouteName.Login,
     component: () => import('@/views/functional/login/index.vue'),
     meta: {
@@ -17,7 +20,7 @@ export const functionalRoutes: RouteRecordRaw[] = [
     },
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: RoutePath.NotFound,
     name: RouteName.NotFound,
     component: () => import('@/views/functional/not-found/index.vue'),
     meta: {

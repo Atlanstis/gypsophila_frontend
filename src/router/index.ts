@@ -3,6 +3,7 @@ import type { App } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 import { functionalRoutes } from './functional';
+import { setupGuards } from './guards';
 
 const routes = [...functionalRoutes];
 
@@ -17,5 +18,8 @@ export const router = createRouter({
  */
 export async function setupRouter(app: App) {
   app.use(router);
+  setupGuards(router);
   await router.isReady();
 }
+
+export * from './functional';
